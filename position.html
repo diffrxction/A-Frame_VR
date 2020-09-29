@@ -1,0 +1,48 @@
+<!--Position
+
+All entities, including the camera, have a position component. And because the default camera and the <a-box> are positioned at the default x, y, z position, 0 0 0, we won’t be able to see the box unless we move it.
+
+We can do this by using the position component to transform the box in 3D space. For example:
+
+<a-scene>
+  <a-box position="2 4 -3"></a-box>
+</a-scene>
+
+    The x-axis value is 2
+    The y-axis value is 4
+    The z-axis value is -3
+
+A-Frame uses a right-handed coordinate system:
+Position right hand rule
+With the default camera direction:
+
+    Positive x-axis goes right.
+    Positive y-axis goes up.
+    Positive z-axis goes out of the screen towards us.
+
+Note: A-Frame’s distance unit is in meters (m).
+Instructions
+1.
+
+Let’s move the box so that it’s in front of the camera.
+
+Give <a-box> a position of "0 0 -5".
+2.
+
+Hmmm, the box is not at the center of the page.
+
+Change the coordinates so that the box moves up by 2 meters  -->
+
+<!-- ACTUAL CODE -->
+
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene background="color: #222222">
+      <!-- Change the code below: -->
+      <a-box color="red" position="0 2 -5"></a-box>
+    </a-scene>
+  </body>
+</html>

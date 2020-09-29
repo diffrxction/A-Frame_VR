@@ -75,9 +75,7 @@ Create two more <a-circle>s with the following positions:
     "0.866 2.5 -10"
     "0.866 1.5 -10"
 
-8.
-
-Almost there! The last thing we need to do is add two more circles to the left of the middle circle.
+8. Almost there! The last thing we need to do is add two more circles to the left of the middle circle.
 
 Try using the mathematical formula we used above, or use your intuition to try and figure out what the positions of these last two circles should be.
 

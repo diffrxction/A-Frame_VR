@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <img id="sky" src="mountains1.jpg">
+         <!-- Add texture here: -->
+         <img id="grass" src="grass1.jpg">
+      </a-assets>
+            
+      <a-sky src="#sky"></a-sky>
+      <!-- Add primitive here: -->
+      <a-plane 
+      src="#grass"
+      rotation="-90 0 0"
+      width="20"
+      height="20"></a-plane>
+    </a-scene>
+  </body>
+</html>

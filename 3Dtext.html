@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <!-- Asset management system -->
+      <a-assets>
+        <img id="sky" src="mountains1.jpg">
+        <img id="grass" src="grass1.jpg">
+      </a-assets>
+      
+      <!-- Entities -->
+      <a-sky src="#sky"></a-sky>
+      <a-plane 
+        src="#grass"
+        rotation="-90 0 0" 
+        width="20" 
+        height="20"></a-plane>
+      <!-- Add your code below: -->
+      <a-text
+        value="Welcome"
+        color="#00f5fc"
+        align="center"
+        position="1 3 -4"
+        ></a-text>
+      
+    </a-scene>
+  </body>
+</html>
